@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.6.81 SP?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Group Name="HW limit switches">
+      <Group Name="BIT FB">
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="BIT_MODE+0" Description="Function block: Create a FB instance" />
+        <Parameter Name="BIT_A1+0" ID="12808" Value="1" Description="Bit mask for one bit" />
+        <Parameter Name="BIT_A2+0" ID="12816" Value="1" Description="Bit mask for one bit" />
+        <Parameter Name="BIT_A3+0" ID="12824" Value="1" Disabled="TRUE" Description="Bit mask for one bit" />
+        <Parameter Name="BIT_B1+0" ID="12872" Value="0" Description="(PlActionGetDPInfo.OffsetAbs MOD 32)" />
+        <Parameter Name="BIT_B2+0" ID="12880" Value="1" Description="(PlActionGetDPInfo.OffsetAbs MOD 32)+1" />
+        <Parameter Name="BIT_B3+0" ID="12888" Value="2" Disabled="TRUE" Description="(PlActionGetDPInfo.OffsetAbs MOD 32)+2" />
+        <Parameter Name="BIT_IN1_PARID+0" ID="12936" Value="542" Description="MC_BR_InitReceiveNetworkData_0.ReceiveParID" />
+        <Parameter Name="BIT_IN2_PARID+0" ID="12944" Value="542" Description="MC_BR_InitReceiveNetworkData_0.ReceiveParID" />
+        <Parameter Name="BIT_IN3_PARID+0" ID="12952" Value="542" Disabled="TRUE" Description="MC_BR_InitReceiveNetworkData_0.ReceiveParID" />
+        <Parameter Name="BIT_MODE+0" ID="12800" Value="10" Description="BIT_MODE = extract right" />
+      </Group>
+      <Group Name="IO settings (limit switches, reference switch)">
+        <Parameter Name="POS_LIMIT_SWITCH_PARID" ID="945" Value="BIT_VALUE1+0" Description="use BIT_VALUE1+0 as pos. limit switch" />
+        <Parameter Name="NEG_LIMIT_SWITCH_PARID" ID="946" Value="BIT_VALUE2+0" Description="use BIT_VALUE2+0 as neg. limit switch" />
+        <Parameter Name="REFERENCE_SWITCH_PARID" ID="944" Value="BIT_VALUE3+0" Disabled="TRUE" Description="use BIT_VALUE3+0 as reference switch" />
+      </Group>
+    </Group>
+  </Root>
+</AcoposParameterTable>

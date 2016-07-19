@@ -1,0 +1,10 @@
+VAR
+	CI_offset : UINT;
+	CI_bitsToShift : UINT;
+	CI_nodeNumber : UINT;
+	getCrosslinkInfo : BOOL;
+	Axis1DIs : UDINT := 0;
+	plActionStatus : UINT := 0;
+	PlActionGetDPInfo : PLACTION_GET_DP_INFO_typ := (0);
+	MC_BR_InitReceiveNetworkData_0 : MC_BR_InitReceiveNetworkData;
+END_VAR
